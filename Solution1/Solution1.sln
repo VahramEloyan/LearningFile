@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstAspNetCoreMvc", "FirstAspNetCoreMvc", "{13DF7084-7A28-4431-AB21-B624B554FF17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B1F9B49-7629-47AC-8D84-E3013EBFD114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWebApplication1", "FirstAspNetCoreMvc\src\AspNetWebApplication1\AspNetWebApplication1.csproj", "{BB4891C4-AAE0-4267-932F-57F5830BB94F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4891C4-AAE0-4267-932F-57F5830BB94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4891C4-AAE0-4267-932F-57F5830BB94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4891C4-AAE0-4267-932F-57F5830BB94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4891C4-AAE0-4267-932F-57F5830BB94F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B1F9B49-7629-47AC-8D84-E3013EBFD114} = {13DF7084-7A28-4431-AB21-B624B554FF17}
+		{BB4891C4-AAE0-4267-932F-57F5830BB94F} = {8B1F9B49-7629-47AC-8D84-E3013EBFD114}
+	EndGlobalSection
+EndGlobal
